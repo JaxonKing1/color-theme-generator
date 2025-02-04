@@ -10,76 +10,77 @@ h1, h2, h3, h4, h5, h6, p {
     primary set & define base colors
     ##########################*/
     
-    --primary: #b797d1;       /*set this to any color to create the theme*/
-    --secondary:                hsl(from var(--primary) calc(h + 60) calc( s * 0.8) l );
-    --surface:                  hsl(from var(--primary) h 5 l );
-    --error:                    hsl(from var(--primary) calc( 0   + (0.025 * h)) calc(s * 0.8) l );
-    --success:                  hsl(from var(--primary) calc( 120 + (h * 0.125)) calc(s * 0.8) l );
-    --highlight:                hsl(from var(--primary) calc(h + 180) calc(s * 0.8) l );
-    --shadow:                   hsl(from var(--surface) h s calc( l * 0.05 ));
+    /*set primary to any color to create the theme*/
+    --primary:                  #b797d1 ;       
+    --secondary:                oklch(from var(--primary) l c calc(h + 40) );
+    --surface:                  oklch(from var(--primary) l 0.02 h );
+    --error:                    oklch(from var(--primary) l 0.175 20 );
+    --success:                  oklch(from var(--primary) l 0.175 140 );
+    --highlight:                oklch(from var(--primary) l c calc(h - 60) );
+    --shadow:                   oklch(from var(--surface) 0.1 c h );
 
     /* #########################
     tags for shades of colors
     ##########################*/
-    --primary10:                hsl(from var(--primary) h s 5);
-    --primary20:                hsl(from var(--primary) h s 17);
-    --primary30:                hsl(from var(--primary) h s 30);
-    --primary40:                hsl(from var(--primary) h s 40);
-    --primary50:                hsl(from var(--primary) h s 50);
-    --primary60:                hsl(from var(--primary) h s 60);
-    --primary70:                hsl(from var(--primary) h s 70);
-    --primary80:                hsl(from var(--primary) h s 85);
-    --primary90:                hsl(from var(--primary) h s 95);
+    --primary10:                oklch(from var(--primary) 0.05 c h );
+    --primary20:                oklch(from var(--primary) 0.17 c h );
+    --primary30:                oklch(from var(--primary) 0.30 c h );
+    --primary40:                oklch(from var(--primary) 0.40 c h );
+    --primary50:                oklch(from var(--primary) 0.50 c h );
+    --primary60:                oklch(from var(--primary) 0.60 c h );
+    --primary70:                oklch(from var(--primary) 0.70 c h );
+    --primary80:                oklch(from var(--primary) 0.85 c h );
+    --primary90:                oklch(from var(--primary) 0.99 c h );
 
-    --secondary10:              hsl(from var(--secondary) h s 5);
-    --secondary20:              hsl(from var(--secondary) h s 17);
-    --secondary30:              hsl(from var(--secondary) h s 30);
-    --secondary40:              hsl(from var(--secondary) h s 40);
-    --secondary50:              hsl(from var(--secondary) h s 50);
-    --secondary60:              hsl(from var(--secondary) h s 60);
-    --secondary70:              hsl(from var(--secondary) h s 70);
-    --secondary80:              hsl(from var(--secondary) h s 85);
-    --secondary90:              hsl(from var(--secondary) h s 95);
+    --secondary10:              oklch(from var(--secondary) 0.05 c h);
+    --secondary20:              oklch(from var(--secondary) 0.17 c h);
+    --secondary30:              oklch(from var(--secondary) 0.30 c h);
+    --secondary40:              oklch(from var(--secondary) 0.40 c h);
+    --secondary50:              oklch(from var(--secondary) 0.50 c h);
+    --secondary60:              oklch(from var(--secondary) 0.60 c h);
+    --secondary70:              oklch(from var(--secondary) 0.70 c h);
+    --secondary80:              oklch(from var(--secondary) 0.85 c h);
+    --secondary90:              oklch(from var(--secondary) 0.99 c h);
 
-    --surface10:                hsl(from var(--surface) h s 5);
-    --surface20:                hsl(from var(--surface) h s 17);
-    --surface30:                hsl(from var(--surface) h s 30);
-    --surface40:                hsl(from var(--surface) h s 40);
-    --surface50:                hsl(from var(--surface) h s 50);
-    --surface60:                hsl(from var(--surface) h s 60);
-    --surface70:                hsl(from var(--surface) h s 70);
-    --surface80:                hsl(from var(--surface) h s 85);
-    --surface90:                hsl(from var(--surface) h s 95);
+    --surface10:                oklch(from var(--surface) 0.05 c h);
+    --surface20:                oklch(from var(--surface) 0.17 c h);
+    --surface30:                oklch(from var(--surface) 0.30 c h);
+    --surface40:                oklch(from var(--surface) 0.40 c h);
+    --surface50:                oklch(from var(--surface) 0.50 c h);
+    --surface60:                oklch(from var(--surface) 0.60 c h);
+    --surface70:                oklch(from var(--surface) 0.70 c h);
+    --surface80:                oklch(from var(--surface) 0.85 c h);
+    --surface90:                oklch(from var(--surface) 0.99 c h);
 
-    --error10:                  hsl(from var(--error) h s 5);
-    --error20:                  hsl(from var(--error) h s 17);
-    --error30:                  hsl(from var(--error) h s 30);
-    --error40:                  hsl(from var(--error) h s 40);
-    --error50:                  hsl(from var(--error) h s 50);
-    --error60:                  hsl(from var(--error) h s 60);
-    --error70:                  hsl(from var(--error) h s 70);
-    --error80:                  hsl(from var(--error) h s 85);
-    --error90:                  hsl(from var(--error) h s 95);
+    --error10:                  oklch(from var(--error) 0.05 c h);
+    --error20:                  oklch(from var(--error) 0.17 c h);
+    --error30:                  oklch(from var(--error) 0.30 c h);
+    --error40:                  oklch(from var(--error) 0.40 c h);
+    --error50:                  oklch(from var(--error) 0.50 c h);
+    --error60:                  oklch(from var(--error) 0.60 c h);
+    --error70:                  oklch(from var(--error) 0.70 c h);
+    --error80:                  oklch(from var(--error) 0.85 c h);
+    --error90:                  oklch(from var(--error) 0.99 c h);
 
-    --success10:                hsl(from var(--success) h s 5);
-    --success20:                hsl(from var(--success) h s 17);
-    --success30:                hsl(from var(--success) h s 30);
-    --success40:                hsl(from var(--success) h s 40);
-    --success50:                hsl(from var(--success) h s 50);
-    --success60:                hsl(from var(--success) h s 60);
-    --success70:                hsl(from var(--success) h s 70);
-    --success80:                hsl(from var(--success) h s 85);
-    --success90:                hsl(from var(--success) h s 95);
+    --success10:                oklch(from var(--success) 0.05 c h);
+    --success20:                oklch(from var(--success) 0.17 c h);
+    --success30:                oklch(from var(--success) 0.30 c h);
+    --success40:                oklch(from var(--success) 0.40 c h);
+    --success50:                oklch(from var(--success) 0.50 c h);
+    --success60:                oklch(from var(--success) 0.60 c h);
+    --success70:                oklch(from var(--success) 0.70 c h);
+    --success80:                oklch(from var(--success) 0.85 c h);
+    --success90:                oklch(from var(--success) 0.99 c h);
 
-    --highlight10:              hsl(from var(--highlight) h s 5);
-    --highlight20:              hsl(from var(--highlight) h s 17);
-    --highlight30:              hsl(from var(--highlight) h s 30);
-    --highlight40:              hsl(from var(--highlight) h s 40);
-    --highlight50:              hsl(from var(--highlight) h s 50);
-    --highlight60:              hsl(from var(--highlight) h s 60);
-    --highlight70:              hsl(from var(--highlight) h s 70);
-    --highlight80:              hsl(from var(--highlight) h s 85);
-    --highlight90:              hsl(from var(--highlight) h s 95);
+    --highlight10:              oklch(from var(--highlight) 0.05 c h);
+    --highlight20:              oklch(from var(--highlight) 0.17 c h);
+    --highlight30:              oklch(from var(--highlight) 0.30 c h);
+    --highlight40:              oklch(from var(--highlight) 0.40 c h);
+    --highlight50:              oklch(from var(--highlight) 0.50 c h);
+    --highlight60:              oklch(from var(--highlight) 0.60 c h);
+    --highlight70:              oklch(from var(--highlight) 0.70 c h);
+    --highlight80:              oklch(from var(--highlight) 0.85 c h);
+    --highlight90:              oklch(from var(--highlight) 0.99 c h);
 
 }
     
