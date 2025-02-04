@@ -23,63 +23,63 @@ h1, h2, h3, h4, h5, h6, p {
     tags for shades of colors
     ##########################*/
     --primary10:                oklch(from var(--primary) 0.05 c h );
-    --primary20:                oklch(from var(--primary) 0.17 c h );
-    --primary30:                oklch(from var(--primary) 0.30 c h );
-    --primary40:                oklch(from var(--primary) 0.40 c h );
-    --primary50:                oklch(from var(--primary) 0.50 c h );
-    --primary60:                oklch(from var(--primary) 0.60 c h );
-    --primary70:                oklch(from var(--primary) 0.70 c h );
-    --primary80:                oklch(from var(--primary) 0.85 c h );
+    --primary20:                oklch(from var(--primary) 0.20 c h );
+    --primary30:                oklch(from var(--primary) 0.32 c h );
+    --primary40:                oklch(from var(--primary) 0.43 c h );
+    --primary50:                oklch(from var(--primary) 0.55 c h );
+    --primary60:                oklch(from var(--primary) 0.70 c h );
+    --primary70:                oklch(from var(--primary) 0.82 c h );
+    --primary80:                oklch(from var(--primary) 0.95 c h );
     --primary90:                oklch(from var(--primary) 0.99 c h );
 
     --secondary10:              oklch(from var(--secondary) 0.05 c h);
-    --secondary20:              oklch(from var(--secondary) 0.17 c h);
-    --secondary30:              oklch(from var(--secondary) 0.30 c h);
-    --secondary40:              oklch(from var(--secondary) 0.40 c h);
-    --secondary50:              oklch(from var(--secondary) 0.50 c h);
-    --secondary60:              oklch(from var(--secondary) 0.60 c h);
-    --secondary70:              oklch(from var(--secondary) 0.70 c h);
-    --secondary80:              oklch(from var(--secondary) 0.85 c h);
+    --secondary20:              oklch(from var(--secondary) 0.20 c h);
+    --secondary30:              oklch(from var(--secondary) 0.32 c h);
+    --secondary40:              oklch(from var(--secondary) 0.43 c h);
+    --secondary50:              oklch(from var(--secondary) 0.55 c h);
+    --secondary60:              oklch(from var(--secondary) 0.70 c h);
+    --secondary70:              oklch(from var(--secondary) 0.82 c h);
+    --secondary80:              oklch(from var(--secondary) 0.95 c h);
     --secondary90:              oklch(from var(--secondary) 0.99 c h);
 
     --surface10:                oklch(from var(--surface) 0.05 c h);
-    --surface20:                oklch(from var(--surface) 0.17 c h);
-    --surface30:                oklch(from var(--surface) 0.30 c h);
-    --surface40:                oklch(from var(--surface) 0.40 c h);
-    --surface50:                oklch(from var(--surface) 0.50 c h);
-    --surface60:                oklch(from var(--surface) 0.60 c h);
-    --surface70:                oklch(from var(--surface) 0.70 c h);
-    --surface80:                oklch(from var(--surface) 0.85 c h);
+    --surface20:                oklch(from var(--surface) 0.20 c h);
+    --surface30:                oklch(from var(--surface) 0.32 c h);
+    --surface40:                oklch(from var(--surface) 0.43 c h);
+    --surface50:                oklch(from var(--surface) 0.55 c h);
+    --surface60:                oklch(from var(--surface) 0.70 c h);
+    --surface70:                oklch(from var(--surface) 0.82 c h);
+    --surface80:                oklch(from var(--surface) 0.95 c h);
     --surface90:                oklch(from var(--surface) 0.99 c h);
 
     --error10:                  oklch(from var(--error) 0.05 c h);
-    --error20:                  oklch(from var(--error) 0.17 c h);
-    --error30:                  oklch(from var(--error) 0.30 c h);
-    --error40:                  oklch(from var(--error) 0.40 c h);
-    --error50:                  oklch(from var(--error) 0.50 c h);
-    --error60:                  oklch(from var(--error) 0.60 c h);
-    --error70:                  oklch(from var(--error) 0.70 c h);
-    --error80:                  oklch(from var(--error) 0.85 c h);
+    --error20:                  oklch(from var(--error) 0.20 c h);
+    --error30:                  oklch(from var(--error) 0.32 c h);
+    --error40:                  oklch(from var(--error) 0.43 c h);
+    --error50:                  oklch(from var(--error) 0.55 c h);
+    --error60:                  oklch(from var(--error) 0.70 c h);
+    --error70:                  oklch(from var(--error) 0.82 c h);
+    --error80:                  oklch(from var(--error) 0.95 c h);
     --error90:                  oklch(from var(--error) 0.99 c h);
 
     --success10:                oklch(from var(--success) 0.05 c h);
-    --success20:                oklch(from var(--success) 0.17 c h);
-    --success30:                oklch(from var(--success) 0.30 c h);
-    --success40:                oklch(from var(--success) 0.40 c h);
-    --success50:                oklch(from var(--success) 0.50 c h);
-    --success60:                oklch(from var(--success) 0.60 c h);
-    --success70:                oklch(from var(--success) 0.70 c h);
-    --success80:                oklch(from var(--success) 0.85 c h);
+    --success20:                oklch(from var(--success) 0.20 c h);
+    --success30:                oklch(from var(--success) 0.32 c h);
+    --success40:                oklch(from var(--success) 0.43 c h);
+    --success50:                oklch(from var(--success) 0.55 c h);
+    --success60:                oklch(from var(--success) 0.70 c h);
+    --success70:                oklch(from var(--success) 0.82 c h);
+    --success80:                oklch(from var(--success) 0.95 c h);
     --success90:                oklch(from var(--success) 0.99 c h);
 
     --highlight10:              oklch(from var(--highlight) 0.05 c h);
-    --highlight20:              oklch(from var(--highlight) 0.17 c h);
-    --highlight30:              oklch(from var(--highlight) 0.30 c h);
-    --highlight40:              oklch(from var(--highlight) 0.40 c h);
-    --highlight50:              oklch(from var(--highlight) 0.50 c h);
-    --highlight60:              oklch(from var(--highlight) 0.60 c h);
-    --highlight70:              oklch(from var(--highlight) 0.70 c h);
-    --highlight80:              oklch(from var(--highlight) 0.85 c h);
+    --highlight20:              oklch(from var(--highlight) 0.20 c h);
+    --highlight30:              oklch(from var(--highlight) 0.32 c h);
+    --highlight40:              oklch(from var(--highlight) 0.43 c h);
+    --highlight50:              oklch(from var(--highlight) 0.55 c h);
+    --highlight60:              oklch(from var(--highlight) 0.70 c h);
+    --highlight70:              oklch(from var(--highlight) 0.82 c h);
+    --highlight80:              oklch(from var(--highlight) 0.95 c h);
     --highlight90:              oklch(from var(--highlight) 0.99 c h);
 
 }

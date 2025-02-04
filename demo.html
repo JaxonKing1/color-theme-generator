@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Page</title>
+
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body class="surface" style="margin: 0; padding: 0;">
+    
+    <nav class="surface" style="display: flex; justify-content: space-evenly;">
+        <h1 class="on-surface">Logo</h1>
+        <ul class="on-surface" style="display: flex; list-style-type: none; gap: 1rem; align-items: center;">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+        </ul>
+    </nav>
+
+    <main style="padding-inline: 5vw;">
+
+        <div class="primary" style="padding: 1em; border-radius: 1em; margin-block: 2em;">
+            <h1 class="on-primary">Hero Text Title.</h1>
+            <p class="on-primary">this is a subheading line of text</p>
+            <button class="highlight on-highlight" style="padding: 1em; border-radius: 1em; border-style: none;">Click Me</button>
+        </div>    
+
+        <div class="secondary" style="padding: 1em; border-radius: 1em; margin-block: 2em;">
+            <h2 class="on-secondary">This is the next heading</h2>
+            <p class="on-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae perferendis suscipit voluptatum inventore corporis repudiandae, amet odit distinctio fugit nostrum molestias culpa excepturi sit, deserunt saepe, expedita maiores labore dolorum. Eveniet veniam aut ad assumenda.</p>
+        </div>    
+
+        <div style="padding: 1em; border-radius: 1em; background-image: linear-gradient(var(--primary), var(--secondary));">
+            <h2 class="surface20">GRADIENTS!!!</h2>
+        </div>
+
+        <div class="surface-two" style="padding: 1em; border-radius: 1em; margin-block: 2em;">
+
+            <p class="on-error">error!</p>
+            <input type="email" name="input" id="input" placeholder="email">
+
+            <p class="on-success">success!</p>
+            <input type="password" name="input" id="input2" placeholder="password">
+        </div>
+
+        <div class="error" style="padding-inline: 1em;"><p class="on-error">whoops</p></div>
+        <div class="success" style="padding-inline: 1em;"><p class="on-success">yay!</p></div>
+    </main>
+
+    <a href="index.html" class="on-surface" style="padding-inline: 2em;">back to home</a>
+
+    <div style="padding-block: 5em;"></div>
+</body>
+</html>
